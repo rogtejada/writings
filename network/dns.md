@@ -31,8 +31,5 @@
 https://www.cloudflare.com/learning/dns/what-is-dns/
 
 
-## OSI Model
-
-
 
 
