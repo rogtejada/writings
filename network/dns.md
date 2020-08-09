@@ -17,6 +17,7 @@
 - subdomain nameserver(can exist)
 
 - 8 steps
+
     1 - A user types ‘example.com’ into a web browser and the query travels into the Internet and is received by a DNS recursive resolver.
 
     2 - The resolver then queries a DNS root nameserver.
@@ -30,7 +31,7 @@
     6 - Lastly, the recursive resolver sends a query to the authoritative domain’s nameserver.
 
     7 - The IP address for example.com is then returned to the resolver from the nameserver.
-    
+
     8 - The DNS resolver then responds to the web browser with the IP address of the domain requested initially.
 
 - Often DNS lookup information will be cached either locally inside the querying computer or remotely in the DNS infrastructure.
