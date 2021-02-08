@@ -102,8 +102,9 @@ Gofmt (auto format into go way)
 
 ### MY thoughts(compared to java)
 
-	Imho go has a better memory management than java. A great tool is that you can choose to use or not pointers, if not every object will be copied instead of a reference as java, that favor imutability. Another thing is that go is a compiled language, so it does not rely on jvm as java and thus can have better performance. Go try to make code simple, removing exception and handling error return with "if statemente", this can lead to a lot of code to check errors but every error is clear and must be handled in compile time. Talking about compile time it does a lot of checks to prevent bad code, such as dependency cycle, forcing the developer to think before code.
-	I would recomend go for scripting and building microservices where you need great performance and concurrency, but in enterprises scenarios it may have a lack of frameworks, tooling and developers on the market. Java as a old language has much bigger comunity, so it can be a better option. 
+Imho go has a better memory management than java. A great tool is that you can choose to use or not pointers, if not every object will be copied instead of a reference as java, that favor imutability. Another thing is that go is a compiled language, so it does not rely on jvm as java and thus can have better performance. Go try to make code simple, removing exception and handling error return with "if statement", this can lead to a lot of code to check errors but every error is clear and must be handled in compile time. Talking about compile time it does a lot of checks to prevent bad code, such as dependency cycle, forcing the developer to think before code.
+
+I would recomend go for scripting and building microservices where you need great performance and concurrency, but in enterprises scenarios it may have a lack of frameworks, tooling and developers on the market. Java as a old language has much bigger comunity, so it can be a better option. 
 
 
 Usefull links:
